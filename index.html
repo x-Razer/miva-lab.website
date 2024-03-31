@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+        <title>End of semester lab project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#textbox">HOME</a></li>
+                        <li><a href="#team">TEAM</a></li>
+                        <li><a href="#footer">ABOUT</a></li>
+                        <li><a href="#cta">CONTACT</a></li>
+                        <li><a href="#ap">APPLY</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box" id="textbox">
+                <h1> AI GROUP</h1>
+                <h3>Uniting Intelligence and Innovavation<br></h3>
+                <p>Welcome to the AI GROUP. Where intelligence and innovation come together to form a brighter future. As pioneers in the realm of artificial intelligence, we are dedicated to advancing in the frontiers of technology through collaborative efforts and groundbreaking solutions.<br><br> </p>
+                <a href="" class="hero-btn">visit us to know more</a>
+            </div>
+
+
+        </section>
+
+    <!-------About us-------->    
+    <section class="team">
+        <div id="team">
+        <h1>Meet The Team</h1>
+        <p>We are a community driven by a shared passion for pushing the boundaries of what's possible.</p></div>
+
+        <div class="row">
+            <div class="team-col">
+                <img src="image 5.jpg">
+                <div class="layer">
+                    <h3>MIRABEL</h3>
+                </div>
+            </div>
+            <div class="team-col">
+                <img src="image 2.jpg">
+                <div class="layer">
+                    <h3>IMODU</h3>
+                </div>
+            </div>
+            <div class="team-col">
+                <img src="image 3.jpg">
+                <div class="layer">
+                    <h3>MARYAM</h3>
+                </div>
+            </div>
+            <div class="team-col">
+                <img src="image 4.jpg">
+                <div class="layer">
+                    <h3>DARLA</h3>
+                </div>
+            </div>
+            
+        </div>
+    
+
+    </section>
+
+    <!-------call to action------->
+
+    <section class="cta">
+        <div id="cta">
+        <h1>Reach Out To Us<br> We Would love to hear from you.</h1>
+        <a href="" class="hero-btn">CONTACT US
+        </a></div>
+    </section>
+
+    <!--application form-->
+
+    <section class="ap">
+        <div id="ap">
+        <h1>Application form</h1>
+        <form action="#" method="post">
+            <p>Full Name:</p>
+            <input type="text" name="fullname" placeholder="Full Name">
+            <p>Address:</p>
+            <input type="text" name="address" placeholder="Address">
+            <p>Phone Number:</p>
+            <input type="number" name="phonenumber" placeholder="Phone Number">
+            <p>Email:</p>
+            <input type="email" name="email" placeholder="Email">
+            <p>Education:</p>
+            <input type="text" name="education" placeholder="Education">
+            <p>Qualifications:</p>
+            <input type="text" name="qualifications" placeholder="Qualifications">
+            <p>Other Information:</p>
+            <input type="text" name="otherinformation" placeholder="Other Information"><br>
+            <button>Apply</button>
+        </form>
+        </div>
+    </section>
+    <!----footer---->
+
+    <section class="footer">
+        <div id="footer">
+        <h4>About Us
+        </h4>
+        <p>Our team spans various dicipline with AI, including machine learning,and language processing.<br> Together, we explore the vast potential of AI to drive change across domains. Join us at AI group as we embark on a collective journey to shape the future of intelligence.<br> We strive to create a positive impact and drive meaningful change in the world, join us. </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+        </div></div>
+    </section>
+
+<!-----------JavaScript For Toggle Menu---------->
+     <script>
+
+         var navLinks = document.getElementbyId("navLinks")
+
+         function showMenu(){
+            navLinks.style.right = "0";
+         }
+         function hideMenu(){
+            navLinks.style.right = "-200px";
+         }
+
+     </script>
+
+
+    </body>
+</html>
